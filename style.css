@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ .container {
+    display: flex;
+    flex-direction: column;
+ }
+
+.body{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.satauri{
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+/* ფუტერის მარცხენა მხარე*/
+
+.leftside{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Elogo{
+    width: 220px;
+}
+
+.copyright {
+    color: #9C8484;
+    font-size: 15px;
+    font-style:oblique;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+/*ცენტრი*/
+
+.center {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.names{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fb {
+    height: 30px;
+    cursor: pointer;
+    float: left;
+    margin-top: 5px;
+}
+
+.insta {
+    width: 25px;
+    float: left;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-top: 32px;
+}
+.youtube {
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 35px;
+}
+.twitter {
+    width: 28px;
+    margin-left: 2px;
+    margin-top: 32px;
+}
+
+/*მარჯვენა*/
+
+.rightside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+ul li {
+    list-style: none;
+    line-height: 60px;
+}
+ul li a {
+    text-decoration: none;
+    color: #9C8484;
+    font-size: 20px;   
+}
+
+
+
+
+
+
+
+
+
+
+
